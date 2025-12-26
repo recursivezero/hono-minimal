@@ -34,8 +34,9 @@ we can see all listed API signature on <http://localhost:3000/reference>
 
 ### How to Reproduce 
 
-uncomment line # 6 on `src/routes/image/image.index.ts` and restart the server and you will see the error on `/reference` page as below: 
+uncomment line # 6 on [`src/routes/image/image.index.ts`](https://github.com/recursivezero/hono-minimal/blob/main/src/routes/image/image.index.ts#6) and restart the server and you will see the error on `/reference` page as below: 
 
 > Document 'api-1' could not be loaded
 
 ![open reference error page](image-1.png)
+
